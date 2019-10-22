@@ -1,2 +1,6 @@
-com\mycompany\aps\Cliente.class
+com\mycompany\aps\GerenciaCliente.class
 com\mycompany\aps\Conta.class
+com\mycompany\aps\Banco.class
+com\mycompany\aps\Cliente.class
+com\mycompany\aps\ContaEspecial.class
+com\mycompany\aps\InterfaceUsuario.class

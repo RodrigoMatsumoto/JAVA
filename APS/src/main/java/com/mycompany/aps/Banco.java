@@ -11,9 +11,13 @@ public class Banco {
     }
     
     public void adicionar(Conta c) {
-        
+        Cliente cliente = new Cliente();
+        GerenciaCliente gc1 = new GerenciaCliente();
+        gc1.adicionar(cliente);
+        c.setCliente(cliente);
+        listaConta.add(c);
     }
-    
+    /*
     public String listar() {
         
     }
@@ -28,5 +32,5 @@ public class Banco {
     
     public boolean remover(int numero) {
         
-    }  
+    }  */
 }

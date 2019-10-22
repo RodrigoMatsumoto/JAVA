@@ -6,7 +6,17 @@ public class InterfaceUsuario {
     
     public static void main(String[] args) {
         InterfaceUsuario iu = new InterfaceUsuario();
-        iu.menuInteragir();
+        /*Cliente c1 = new Cliente();
+        Cliente c2 = new Cliente();
+        GerenciaCliente cliente = new GerenciaCliente();
+        cliente.adicionar(c1);
+        cliente.adicionar(c2);
+        cliente.existeCpf(c1);
+        System.out.println(cliente.existeCpf(c2));*/
+        Conta conta = new Conta();
+        Banco banco = new Banco();
+        banco.adicionar(conta);
+        conta.imprimir();
     }
     
     public void menuInteragir() {
